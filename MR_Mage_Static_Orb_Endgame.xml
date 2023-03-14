@@ -998,10 +998,11 @@
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>550</int>
+            <int>556</int>
             <int>53</int>
             <int>381</int>
             <int>397</int>
+            <int>557</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
