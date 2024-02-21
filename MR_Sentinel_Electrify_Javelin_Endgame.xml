@@ -2,7 +2,7 @@
   <name>MR_Sentinel_Electrify_Javelin_Endgame</name>
   <filterIcon>5</filterIcon>
   <filterIconColor>11</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -109,6 +109,7 @@
             <int>55</int>
             <int>85</int>
             <int>330</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -333,6 +334,7 @@
           <subTypes>
             <int>39</int>
             <int>38</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -373,6 +375,7 @@
           <subTypes>
             <int>39</int>
             <int>38</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -413,6 +416,7 @@
           <subTypes>
             <int>39</int>
             <int>38</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -453,6 +457,7 @@
           <subTypes>
             <int>39</int>
             <int>38</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -491,7 +496,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -529,7 +537,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -569,6 +580,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>11</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -610,6 +623,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>11</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -650,6 +665,9 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>12</int>
+            <int>11</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -689,6 +707,9 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>12</int>
+            <int>11</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
