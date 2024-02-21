@@ -1,8 +1,8 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_Runemaster_Hydrahedron_EndgameCopy</name>
+  <name>MR_Runemaster_Hydrahedron</name>
   <filterIcon>2</filterIcon>
   <filterIconColor>8</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -178,6 +178,7 @@
           </type>
           <subTypes>
             <int>10</int>
+            <int>13</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -215,6 +216,7 @@
             <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
           </type>
           <subTypes>
+            <int>13</int>
             <int>10</int>
           </subTypes>
         </Condition>
@@ -330,9 +332,6 @@
           </type>
           <subTypes>
             <int>11</int>
-            <int>12</int>
-            <int>9</int>
-            <int>8</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -373,9 +372,6 @@
           </type>
           <subTypes>
             <int>11</int>
-            <int>12</int>
-            <int>9</int>
-            <int>8</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -419,6 +415,7 @@
             <int>23</int>
             <int>22</int>
             <int>21</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -464,6 +461,7 @@
             <int>23</int>
             <int>22</int>
             <int>21</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -506,6 +504,7 @@
             <int>22</int>
             <int>23</int>
             <int>41</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -550,6 +549,7 @@
             <int>22</int>
             <int>23</int>
             <int>41</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -592,6 +592,10 @@
           <subTypes>
             <int>6</int>
             <int>4</int>
+            <int>7</int>
+            <int>8</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -632,6 +636,10 @@
           <subTypes>
             <int>6</int>
             <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -672,6 +680,9 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
+            <int>9</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -713,6 +724,9 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
+            <int>9</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -754,6 +768,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -796,6 +812,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -1015,6 +1033,7 @@
             <int>34</int>
             <int>6</int>
             <int>502</int>
+            <int>504</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
@@ -1056,6 +1075,7 @@
             <int>34</int>
             <int>6</int>
             <int>502</int>
+            <int>504</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
