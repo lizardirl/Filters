@@ -2,7 +2,7 @@
   <name>MR_Primalist_Swipe_Werebear_Endgame</name>
   <filterIcon>7</filterIcon>
   <filterIconColor>4</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0.6</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -113,6 +113,7 @@
             <int>56</int>
             <int>57</int>
             <int>59</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -259,6 +260,8 @@
           <subTypes>
             <int>41</int>
             <int>30</int>
+            <int>55</int>
+            <int>56</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -298,6 +301,9 @@
           </type>
           <subTypes>
             <int>41</int>
+            <int>56</int>
+            <int>30</int>
+            <int>55</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -338,6 +344,8 @@
           <subTypes>
             <int>42</int>
             <int>29</int>
+            <int>55</int>
+            <int>30</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -380,6 +388,8 @@
           <subTypes>
             <int>42</int>
             <int>29</int>
+            <int>55</int>
+            <int>30</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -420,7 +430,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -458,7 +471,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -498,6 +514,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -539,6 +557,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -580,6 +600,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -623,6 +645,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
