@@ -2,7 +2,7 @@
   <name>MR_Primalist_Totem_Pop_Endgame</name>
   <filterIcon>7</filterIcon>
   <filterIconColor>4</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -129,6 +129,7 @@
           <affixes>
             <int>36</int>
             <int>52</int>
+            <int>715</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -176,7 +177,7 @@
           <affixes>
             <int>4</int>
             <int>102</int>
-            <int>64</int>
+            <int>643</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -212,7 +213,7 @@
           <affixes>
             <int>4</int>
             <int>102</int>
-            <int>64</int>
+            <int>643</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -290,12 +291,12 @@
             <int>7</int>
             <int>19</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
         </Condition>
         <Condition i:type="RarityCondition">
           <rarity>MAGIC RARE EXALTED</rarity>
@@ -319,6 +320,8 @@
           <subTypes>
             <int>41</int>
             <int>30</int>
+            <int>56</int>
+            <int>55</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -359,6 +362,8 @@
           <subTypes>
             <int>41</int>
             <int>30</int>
+            <int>55</int>
+            <int>56</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -396,7 +401,13 @@
           <type>
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>42</int>
+            <int>55</int>
+            <int>31</int>
+            <int>29</int>
+            <int>28</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -433,10 +444,58 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes>
+            <int>42</int>
+            <int>55</int>
+            <int>31</int>
+            <int>29</int>
+            <int>28</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>50</int>
+            <int>504</int>
+            <int>503</int>
+            <int>502</int>
+            <int>501</int>
+            <int>505</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Body Armor (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>7</int>
+            <int>8</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -475,7 +534,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -516,6 +578,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -556,6 +620,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -596,6 +662,8 @@
           <subTypes>
             <int>5</int>
             <int>7</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -636,6 +704,8 @@
           <subTypes>
             <int>5</int>
             <int>7</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
