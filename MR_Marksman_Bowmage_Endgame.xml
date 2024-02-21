@@ -2,7 +2,7 @@
   <name>MR_Marksman_Bowmage_Endgame</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>10</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -106,6 +106,7 @@
             <int>86</int>
             <int>16</int>
             <int>35</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -251,8 +252,9 @@
           </type>
           <subTypes>
             <int>49</int>
-            <int>47</int>
-            <int>50</int>
+            <int>66</int>
+            <int>68</int>
+            <int>69</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -293,8 +295,9 @@
           </type>
           <subTypes>
             <int>49</int>
-            <int>47</int>
-            <int>50</int>
+            <int>69</int>
+            <int>68</int>
+            <int>66</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -334,8 +337,10 @@
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
           <subTypes>
-            <int>51</int>
             <int>50</int>
+            <int>66</int>
+            <int>68</int>
+            <int>69</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -374,8 +379,10 @@
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
           <subTypes>
-            <int>51</int>
+            <int>66</int>
             <int>50</int>
+            <int>68</int>
+            <int>69</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -414,7 +421,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -452,7 +462,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -492,6 +505,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -532,6 +547,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -572,6 +589,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -612,6 +631,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -735,6 +756,7 @@
             <int>9</int>
             <int>1</int>
             <int>8</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -776,6 +798,7 @@
             <int>9</int>
             <int>1</int>
             <int>8</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
