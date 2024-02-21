@@ -2,8 +2,8 @@
   <name>MR_Necromancer_Golem_Endgame</name>
   <filterIcon>1</filterIcon>
   <filterIconColor>13</filterIconColor>
-  <description>0.9</description>
-  <lastModifiedInVersion>0.9.2</lastModifiedInVersion>
+  <description>1.0</description>
+  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -108,6 +108,7 @@
             <int>1</int>
             <int>86</int>
             <int>429</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -329,6 +330,11 @@
           </type>
           <subTypes>
             <int>15</int>
+            <int>13</int>
+            <int>64</int>
+            <int>70</int>
+            <int>51</int>
+            <int>14</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -367,6 +373,11 @@
           </type>
           <subTypes>
             <int>15</int>
+            <int>13</int>
+            <int>14</int>
+            <int>51</int>
+            <int>64</int>
+            <int>70</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -408,6 +419,8 @@
             <int>15</int>
             <int>14</int>
             <int>13</int>
+            <int>64</int>
+            <int>70</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -451,6 +464,8 @@
             <int>15</int>
             <int>14</int>
             <int>13</int>
+            <int>64</int>
+            <int>70</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -489,7 +504,13 @@
           <type>
             <EquipmentType>BELT</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
+            <int>4</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -526,44 +547,13 @@
           <type>
             <EquipmentType>BELT</EquipmentType>
           </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>52</int>
-            <int>36</int>
-            <int>75</int>
-            <int>27</int>
-            <int>26</int>
-            <int>70</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>2</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>4</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Wanted Belts</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BELT</EquipmentType>
-          </type>
-          <subTypes />
+          <subTypes>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
+            <int>4</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -603,6 +593,9 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>9</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -644,6 +637,9 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>11</int>
+            <int>10</int>
+            <int>9</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -685,6 +681,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>12</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -725,6 +723,9 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>12</int>
+            <int>11</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
