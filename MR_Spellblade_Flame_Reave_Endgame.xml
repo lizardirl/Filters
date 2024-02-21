@@ -2,7 +2,7 @@
   <name>MR_Spellblade_Flame_Reave_Endgame</name>
   <filterIcon>2</filterIcon>
   <filterIconColor>8</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0.6</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -116,6 +116,7 @@
             <int>77</int>
             <int>6</int>
             <int>27</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -346,6 +347,7 @@
             <int>23</int>
             <int>22</int>
             <int>21</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -389,6 +391,7 @@
             <int>23</int>
             <int>22</int>
             <int>21</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -432,6 +435,7 @@
             <int>22</int>
             <int>23</int>
             <int>41</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -475,6 +479,7 @@
             <int>22</int>
             <int>23</int>
             <int>41</int>
+            <int>58</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -515,6 +520,10 @@
           </type>
           <subTypes>
             <int>4</int>
+            <int>7</int>
+            <int>8</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -553,6 +562,10 @@
           </type>
           <subTypes>
             <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -592,6 +605,9 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
+            <int>9</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -633,6 +649,9 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
+            <int>9</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -674,6 +693,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -714,6 +735,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
