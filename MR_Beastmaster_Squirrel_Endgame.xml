@@ -2,7 +2,7 @@
   <name>MR_Beastmaster_Squirrel_Endgame</name>
   <filterIcon>7</filterIcon>
   <filterIconColor>4</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -108,6 +108,7 @@
             <int>57</int>
             <int>2</int>
             <int>74</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -183,6 +184,7 @@
             <int>643</int>
             <int>48</int>
             <int>86</int>
+            <int>64</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -221,6 +223,7 @@
             <int>643</int>
             <int>48</int>
             <int>86</int>
+            <int>64</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -333,6 +336,7 @@
           <subTypes>
             <int>30</int>
             <int>41</int>
+            <int>56</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -373,6 +377,7 @@
           <subTypes>
             <int>30</int>
             <int>41</int>
+            <int>56</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -493,7 +498,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>8</int>
+            <int>7</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -532,7 +540,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>7</int>
+            <int>8</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -573,6 +584,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -615,6 +628,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -657,6 +672,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -697,6 +714,8 @@
           <subTypes>
             <int>7</int>
             <int>5</int>
+            <int>11</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
