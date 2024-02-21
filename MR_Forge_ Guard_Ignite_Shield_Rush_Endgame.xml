@@ -2,7 +2,7 @@
   <name>MR_Forge_ Guard_Ignite_Shield_Rush_Endgame</name>
   <filterIcon>5</filterIcon>
   <filterIconColor>11</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.9.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -94,6 +94,7 @@
             <int>55</int>
             <int>68</int>
             <int>100</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -237,6 +238,7 @@
             <int>39</int>
             <int>52</int>
             <int>38</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -277,6 +279,7 @@
             <int>39</int>
             <int>52</int>
             <int>38</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -316,6 +319,48 @@
           <subTypes>
             <int>39</int>
             <int>40</int>
+            <int>61</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>361</int>
+            <int>565</int>
+            <int>501</int>
+            <int>505</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Body Armor</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes>
+            <int>39</int>
+            <int>40</int>
+            <int>61</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -354,7 +399,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>8</int>
+            <int>7</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -392,7 +440,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>10</int>
+            <int>9</int>
+            <int>8</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -432,6 +483,8 @@
           <subTypes>
             <int>5</int>
             <int>6</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -471,6 +524,8 @@
           <subTypes>
             <int>6</int>
             <int>5</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -509,6 +564,8 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>7</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -547,6 +604,8 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>7</int>
+            <int>12</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
