@@ -2,7 +2,7 @@
   <name>MR_Lich_Death_Seal_Endgame</name>
   <filterIcon>1</filterIcon>
   <filterIconColor>13</filterIconColor>
-  <description>0.9</description>
+  <description>1.0</description>
   <lastModifiedInVersion>0.8.5f</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -111,6 +111,7 @@
             <int>429</int>
             <int>86</int>
             <int>1</int>
+            <int>715</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -333,8 +334,9 @@
             <EquipmentType>HELMET</EquipmentType>
           </type>
           <subTypes>
-            <int>12</int>
-            <int>51</int>
+            <int>15</int>
+            <int>64</int>
+            <int>13</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -375,8 +377,9 @@
             <EquipmentType>HELMET</EquipmentType>
           </type>
           <subTypes>
-            <int>12</int>
-            <int>51</int>
+            <int>64</int>
+            <int>15</int>
+            <int>13</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -420,7 +423,8 @@
             <int>15</int>
             <int>14</int>
             <int>13</int>
-            <int>52</int>
+            <int>64</int>
+            <int>70</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -461,9 +465,10 @@
           </type>
           <subTypes>
             <int>15</int>
-            <int>52</int>
+            <int>64</int>
             <int>14</int>
             <int>13</int>
+            <int>70</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -503,7 +508,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>7</int>
+            <int>8</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -541,7 +549,10 @@
             <EquipmentType>BELT</EquipmentType>
           </type>
           <subTypes>
-            <int>4</int>
+            <int>7</int>
+            <int>8</int>
+            <int>9</int>
+            <int>10</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -580,6 +591,9 @@
           </type>
           <subTypes>
             <int>6</int>
+            <int>5</int>
+            <int>10</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -619,6 +633,9 @@
           </type>
           <subTypes>
             <int>6</int>
+            <int>10</int>
+            <int>11</int>
+            <int>5</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -659,6 +676,8 @@
           <subTypes>
             <int>5</int>
             <int>7</int>
+            <int>12</int>
+            <int>11</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -698,6 +717,9 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>12</int>
+            <int>11</int>
+            <int>7</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
